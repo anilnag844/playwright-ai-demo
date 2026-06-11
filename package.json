@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ai-demo",
+  "version": "1.0.0",
+  "description": "Multi-layer Playwright + TypeScript test framework with Page Object Model, custom fixtures, a shared API client, and AI-assisted test generation",
+  "author": "Anil Kumar Nag <anilnag844@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test tests/e2e --headed",
+    "report": "playwright show-report",
+    "ai:generate": "tsx scripts/generate-tests.ts"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^25.9.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.0"
+  }
+}

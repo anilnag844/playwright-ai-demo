@@ -4,7 +4,7 @@
 
 A public, sanitized demo of the **multi-layer Playwright + TypeScript framework architecture** I build at enterprise scale — Page Object Model, custom fixtures, a shared API client, CI on GitHub Actions, and AI-assisted test generation with Claude.
 
-> The production version of this architecture (an enterprise natural-language QE platform on AWS Bedrock + Claude + MCP servers, serving 18 digital product teams at MGM Resorts) is proprietary. This repo demonstrates the same patterns against public demo targets, with no client code.
+> The production version of this architecture (an enterprise natural-language QE platform on AWS Bedrock + Claude + MCP servers, serving 9 digital product teams at a Fortune 500 hospitality & gaming enterprise) is proprietary. This repo demonstrates the same patterns against public demo targets, with no client code.
 >
 > 🌐 More context: [anilnag844.github.io](https://anilnag844.github.io) · [LinkedIn](https://www.linkedin.com/in/anilkumarnag/)
 
